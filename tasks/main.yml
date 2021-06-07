@@ -1,0 +1,13 @@
+---
+- name: Prepare install path
+  file:
+    path: /opt/cni/bin
+    state: directory      
+    
+- name: Download cni-plugins
+  unarchive:
+    src: "{{ cni_plugin_src }}"
+    dest: /opt/cni/bin
+    remote_src: yes 
+
+

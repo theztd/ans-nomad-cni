@@ -1,0 +1,2 @@
+---
+cni_plugin_src: https://github.com/containernetworking/plugins/releases/download/v0.9.1/cni-plugins-linux-amd64-v0.9.1.tgz
